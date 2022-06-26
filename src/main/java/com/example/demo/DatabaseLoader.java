@@ -4,6 +4,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
+import com.example.demo.Entities.Employee;
+import com.example.demo.Repositories.EmployeeRepository;
+
 @Component
 public class DatabaseLoader implements CommandLineRunner {
 
